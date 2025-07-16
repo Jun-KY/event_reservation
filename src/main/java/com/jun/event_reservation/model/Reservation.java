@@ -17,7 +17,7 @@ public class Reservation {
 
     private String attendeeName;
 
-    private int seat;
+    private int seats;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "event_id", nullable = false)
